@@ -3,8 +3,8 @@ provider "aws" {
 }
 
 resource "aws_api_gateway_rest_api" "api" {
-  name        = "ec2manager-api"
-  description = "EIQ EC2 Instances Manager API"
+  name        = "${var.api_name}"
+  description = "${var.api_description}"
 }
 
 resource "aws_api_gateway_resource" "api-resource" {
