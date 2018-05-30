@@ -9,9 +9,11 @@ Usage
 -------
 ````
 module "ec2manager_api" {
-  source        = "birkoff/api-gateway"
-  region        = "eu-central-1"
-  resource_path = "endpoint"
+  source          = "birkoff/api-gateway"
+  region          = "eu-central-1"
+  resource_path   = "endpoint"
+  api_name        = "myapp-api"
+  api_description = "MyApp API description"
 }
 ````
 
