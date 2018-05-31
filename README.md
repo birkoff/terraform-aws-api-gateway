@@ -8,7 +8,7 @@ These types of resources are created:
 Usage
 -------
 Use in combination with:
-- https://github.com/birkoff/terraform-aws-api-gateway
+- https://github.com/birkoff/terraform-aws-api-method
 - https://github.com/birkoff/terraform-aws-api-method-mock
 - https://github.com/birkoff/terraform-aws-lambda-function
 
