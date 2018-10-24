@@ -5,6 +5,7 @@ provider "aws" {
 resource "aws_api_gateway_rest_api" "api" {
   name        = "${var.api_name}"
   description = "${var.api_description}"
+  policy      = "${var.api_policy}"
 }
 
 resource "aws_api_gateway_resource" "api-resource" {

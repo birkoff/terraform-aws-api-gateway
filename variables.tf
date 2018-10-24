@@ -13,3 +13,7 @@ variable "api_name" {
 variable "api_description" {
   type = "string"
 }
+
+variable "api_policy" {
+  type = "string"
+}
