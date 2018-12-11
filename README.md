@@ -26,7 +26,7 @@ module "my_lambda_function" {
   timeout          = "${var.timeout}"
   s3_lambda_bucket = "${var.s3_lambda_bucket}"
   s3_function_key  = "${var.source_s3_key_change_instance}"
-  description      = "${var.description_chnage_instance}"
+  description      = "${var.description_change_instance}"
   handler          = "${var.handler_change_instance}"
   lambda_role_arn  = "${aws_iam_role.ec2manager-change-instance-state-role.arn}"
   source_arn       = "arn:aws:execute-api:${var.region}:${var.account_id}:*"
